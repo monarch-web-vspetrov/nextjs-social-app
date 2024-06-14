@@ -1,5 +1,10 @@
-function Home() {
-  return <div>Home</div>;
-}
+import { UserButton } from "@clerk/nextjs";
 
-export default Home;
+export default function Home() {
+  return (
+    <div className="flex-center">
+      <UserButton />
+      <h1 className="h1-bold">Next js Incoming</h1>
+    </div>
+  );
+}
