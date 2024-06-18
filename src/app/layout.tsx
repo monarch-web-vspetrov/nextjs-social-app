@@ -39,7 +39,8 @@ export default function RootLayout({
             },
           }}
         >
-          <ThemeProvider>{children}</ThemeProvider>
+          {/* <ThemeProvider></ThemeProvider> */}
+          {children}
         </ClerkProvider>
       </body>
     </html>
